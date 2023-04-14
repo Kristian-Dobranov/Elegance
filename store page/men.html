@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Elegance</title>
+    <!-- Meta Links -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="/store page/storePage.css">
+    <link rel="stylesheet" href="/style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper container">
+            <nav class="nav">
+                <!-- Navigation Logo [1] -->
+                <div class="logo"><a href="index.html">ELEGANCE</a></div>
+                <!-- Navigation Form [2] -->
+                <form>
+                    <svg width="29" height="29" fill="none" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.25 19.25 15.5 15.5M4.75 11a6.25 6.25 0 1 1 12.5 0 6.25 6.25 0 0 1-12.5 0Z"></path>
+                    </svg>
+                    <input type="text" placeholder="| Какво търсите днес ?">
+                </form>
+
+                <!-- Navigation Links [3] -->
+                <ul class="nav-list">
+                    <li><a href="index.html">Начало</a></li>
+                    <li>
+                        <a href="" class="desktop-item">Магазин <span><i class="fas fa-chevron-down"></i></span></a>
+                        <label for="showdrop2" class="mobile-item"><span> <i
+                                    class="fas fa-chevron-down"></i></span></label>
+                        <ul class="drop-menu2">
+                            <li><a href="../store page/men.html">Мъже</a></li>
+                            <li><a href="/store page/woman.html">Жени</a></li>
+                            <li><a href="silver.html">Аксесоари</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="" class="desktop-item">За нас <span><i class="fas fa-chevron-down"></i></span></a>
+                        <label for="showdrop2" class="mobile-item"><span><i
+                                    class="fas fa-chevron-down"></i></span></label>
+                        <ul class="drop-menu2">
+                            <li><a href="#footer">Намерете ни</a></li>
+                            <li><a href="">Контакти</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Profile SVG [4] -->
+                <div class="navigation__services">
+                    <a href="">
+                        <svg width="46" height="35" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 4.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 1 0 0-6.5z"></path>
+                            <path
+                                d="M6.848 19.25h10.305c1.141 0 2.021-.982 1.488-1.992C17.856 15.773 16.068 14 12 14s-5.856 1.773-6.64 3.258c-.534 1.01.346 1.992 1.487 1.992Z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Responsive Bars [5] -->
+                <label for="" class="btn open-btn"><i class="fas fa-bars"></i></label>
+        </div>
+        </nav>
+        <!-- Navbar - КРАЙ -->
+    </header>
+
+    <main class="main">
+        <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Sidebar  Container-->
+        <div id="sidebar">
+            <!-- Cart Icom -->
+            <h3><svg width="39" height="39" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.75 7.75h11.5l-1.637 6.958a2 2 0 0 1-1.947 1.542h-4.127a2 2 0 0 1-1.933-1.488L7.75 7.75Zm0 0-.75-3H4.75">
+                    </path>
+                    <path fill="currentColor" stroke="none" d="M10 18a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+                    <path fill="currentColor" stroke="none" d="M17 18a1 1 0 1 0 0 2 1 1 0 1 0 0-2z"></path>
+                </svg></h3>
+            <!-- If cart is empty -->
+            <div id="cart">
+                <span class="empty">Количката е празна.</span>
+            </div>
+
+            <h3>Категории</h3>
+            <div class="checklist categories">
+                <ul>
+                    <li><a class="btn active" href=""><span></span>Нови</a></li>
+                    <li><a href="btn"><span></span>Дънки</a></li>
+                    <li><a href="btn"><span></span>Блузи</a></li>
+                    <li><a href="btn"><span></span>Ризи</a></li>
+                    <li><a href="btn"><span></span>Якета</a></li>
+                    <li><a href="btn"><span></span>Панталони</a></li>
+                    <li><a href="btn"><span></span>Тениски</a></li>
+                </ul>
+            </div>
+
+            <h3>Цветове</h3>
+            <div class="checklist colors">
+                <ul>
+                    <li><a href=""><span></span>Бежово</a></li>
+                    <li><a href=""><span style="background:#222"></span>Черно</a></li>
+                    <li><a href=""><span style="background:#6e8cd5"></span>Синьо</a></li>
+                    <li><a href=""><span style="background:#f56060"></span>Кафяво</a></li>
+                    <li><a href=""><span style="background:#44c28d"></span>Зелено</a></li>
+                </ul>
+
+                <ul>
+                    <li><a href=""><span style="background:#999"></span>Сиво</a></li>
+                    <li><a href=""><span style="background:#f79858"></span>Оранжево</a></li>
+                    <li><a href=""><span style="background:#b27ef8"></span>Лилаво</a></li>
+                    <li><a href=""><span style="background:#f56060"></span>Червено</a></li>
+                    <li><a href=""><span
+                                style="background:#fff;border: 1px solid #e8e9eb;width:13px;height:13px;"></span>Бяло</a>
+                    </li>
+                </ul>
+            </div>
+
+            <h3>PRICE RANGE</h3>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/price-range.png" alt="" />
+        </div>
+
+
+        <h1 class="collection__title">| Пролетна Колекция</h1>
+        <div id="flex">
+            <!-- Product[1] -->
+            <div class="product filterDiv jeans">
+                <div class="info-large">
+                    <h4>FLUTED HEM DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>$43</span> $1
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#f56060"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+                    <button class="add-cart-large">Add To Cart</button>
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3a%2Fd5%2F3ad51ac66dad676c6a14090d55712093e35ade47.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">54.99 лв.</span>
+                                <span class="product_name">Риза от памук</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F28%2Fad%2F28ad41735ae4dc8a9215bbe8c38f75797f6b1869.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe2%2F7f%2Fe27f90e9a2ef07b593bd41dbe71184ef46d10609.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fe3%2F6c%2Fe36c3b0bff92f3c77c0bdfbbb91448e87a9a16af.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[2] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>PLEAT PRINTED DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>$43</span> $1
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#f56060"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F51%2F6f%2F516fce9f71086675ac53e03f43a4efebb3ce8749.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">64.99 лв.</span>
+                                <span class="product_name">Свободен панталон</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fbf%2Fbe%2Fbfbed963cc97bcf12824c15e07425deec2ce9542.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F85%2Fc9%2F85c9c8bde60d44b94f1ea272bf93a6c4cb1acc3c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb1%2F2a%2Fb12a939ccdef02bc5f92e3d4334d10a263347fea.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[3] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>FLOWY SHIRT DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>$43</span> $12
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#f56060"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8b%2Fc1%2F8bc151f009d0b82882a844516611c0e0da20db21.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">34.99 лв.</span>
+                                <span class="product_name">Горнище с качулка</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F0d%2Fdc%2F0ddc587fef568beadaebef5c12916e93372e9870.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F64%2F73%2F647347b437a97a2a36e0ff2d6f6f9f43fff43d19.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F5c%2Fc5%2F5cc5fe32fc0a06ce0a5376fdcadb7438fe7fe513.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[4] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>DOUBLE LAYER DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>$43</span> $1
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#f56060"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa4%2Fc0%2Fa4c0fd31ebe9b0cb1da87447e09169a075618756.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price"> 34.99 лв.</span>
+                                <span class="product_name">Риза със широка яка </span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb6%2F58%2Fb658a1ce1e76a4f780e6ab6ad5a3fc8b6aa36246.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F3e%2F1e%2F3e1e35b0e2d43cc6bc332de7eadb884280a0cd4b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[5] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>BEAD DETAIL DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>123</span> $1
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#f56060"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F54%2F6f%2F546fdff4a83872d08af5ab7556032c1ea9dc1c2a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">74.99 лв.</span>
+                                <span class="product_name">Карго панталон</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fd0%2F1f%2Fd01f9e55e54c5eb298a132024c7c43d1ab6ab56a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F60%2Fbb%2F60bbe9536ddfffede266c7de3832119706d32a70.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[6] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>PLEATED DETAIL DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>24.99 лв.</span> 24.99 лв.
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#9b887b"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbd%2Fd8%2Fbdd891a6f29cd89434c776baedc31c3ecba79e51.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">115.99 лв.</span>
+                                <span class="product_name">Водоoтблъскващ анорак</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F2a%2F9b%2F2a9bdbdf97d1bb566c68b6aa273a8bee652cab72.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F76%2F18%2F7618068885e2b256499bf545c00dbdbc13a84388.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[7] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>BEAD DETAIL DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>123</span> $1
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#f56060"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcf%2F0d%2Fcf0daf40158a7957d2034c294b5ebb2f0843d30a.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">64.99 лв.</span>
+                                <span class="product_name">Спортен Суитшърт</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F01%2F8a%2F018a8362131f7b6602c1a01aebc193e858bf642b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2F97%2Fb8%2F97b8260adb5387466c43682cb06e93f32c1c6f8b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[8] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>PLEATED DETAIL DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>24.99 лв.</span> 24.99 лв.
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#9b887b"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fb5%2Ff7%2Fb5f7d56fd8dea9fd1d9db4cb7c60f0ca88d1ef45.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_jackets%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">229.99 лв.</span>
+                                <span class="product_name">Мембранно яке</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Ffe%2F52%2Ffe52d03194aa3cabbd391e35ee2698c44721f577.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_jackets%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fab%2Ff1%2Fabf131a38ad8235e7d264e2e131f1d60869effa2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bmen_jacketscoats_jackets%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product[9] -->
+            <div class="product">
+                <div class="info-large">
+                    <h4>PLEATED DETAIL DRESS</h4>
+                    <div class="sku">
+                        PRODUCT SKU: <strong>89356</strong>
+                    </div>
+
+                    <div class="price-big">
+                        <span>24.99 лв.</span> 24.99 лв.
+                    </div>
+
+                    <h3>COLORS</h3>
+                    <div class="colors-large">
+                        <ul>
+                            <li><a href="" style="background:#222"><span></span></a></li>
+                            <li><a href="" style="background:#6e8cd5"><span></span></a></li>
+                            <li><a href="" style="background:#9b887b"><span></span></a></li>
+                            <li><a href="" style="background:#44c28d"><span></span></a></li>
+                        </ul>
+                    </div>
+
+                    <h3>SIZE</h3>
+                    <div class="sizes-large">
+                        <span>XS</span>
+                        <span>S</span>
+                        <span>M</span>
+                        <span>L</span>
+                        <span>XL</span>
+                        <span>XXL</span>
+                    </div>
+
+                    <button class="add-cart-large">Add To Cart</button>
+
+                </div>
+                <div class="make3D">
+                    <div class="product-front">
+                        <div class="shadow"></div>
+                        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F87%2Feb%2F87ebd7f97abfabf51fc9dfeab8facd4e8942f6ad.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                            alt="" />
+                        <div class="image_overlay"></div>
+                        <div class="add_to_cart">Add to cart</div>
+                        <div class="view_gallery">View gallery</div>
+                        <div class="stats">
+                            <div class="stats-container">
+                                <span class="product_price">24.99 лв.</span>
+                                <span class="product_name">Риза с къси ръкави</span>
+                                <p>Summer dress</p>
+
+                                <div class="product-options">
+                                    <strong>SIZES</strong>
+                                    <span>XS, S, M, L, XL, XXL</span>
+                                    <strong>COLORS</strong>
+                                    <div class="colors">
+                                        <div class="c-blue"><span></span></div>
+                                        <div class="c-red"><span></span></div>
+                                        <div class="c-white"><span></span></div>
+                                        <div class="c-green"><span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-back">
+                        <div class="shadow"></div>
+                        <div class="carousel">
+                            <ul class="carousel-container">
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fff%2F43%2Fff43ac02aeb8f22aa3a2fa5b0c716912aee93059.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                                <li><img src="https://lp2.hm.com/hmgoepprod?set=format%5Bwebp%5D%2Cquality%5B79%5D%2Csource%5B%2Fb1%2Fe7%2Fb1e797423cf0fc616cf7b14876379ecc2d744606.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url%5Bfile%3A%2Fproduct%2Fmain%5D"
+                                        alt="" /></li>
+                            </ul>
+                            <div class="arrows-perspective">
+                                <div class="carouselPrev">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                                <div class="carouselNext">
+                                    <div class="y"></div>
+                                    <div class="x"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-back">
+                            <div class="cy"></div>
+                            <div class="cx"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+
+    <!-- Footer - НАЧАЛО-->
+    <footer class="footer" id="footer">
+        <div class="contacts">
+            <!-- Call -->
+            <div class="svg__container">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.893 4.75H6.068c-.728 0-1.318.59-1.318 1.318 0 7.28 5.902 13.182 13.182 13.182.728 0 1.318-.59 1.318-1.318v-2.825l-3.107-2.071-1.611 1.61c-.28.28-.698.368-1.05.186a11.093 11.093 0 0 1-2.518-1.796 8.726 8.726 0 0 1-1.836-2.542c-.16-.34-.067-.733.199-1l1.637-1.637L8.893 4.75Z">
+                    </path>
+                    <path d="M14 5.03a7.264 7.264 0 0 1 5 5.076"></path>
+                </svg>
+                <h2>+359 888 888 888</h2>
+            </div>
+            <!-- Email -->
+            <div class="svg__container">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.25 11.75 17.664 6.2a2 2 0 0 0-1.923-1.45H8.26A2 2 0 0 0 6.336 6.2L4.75 11.75"></path>
+                    <path
+                        d="M10.214 12.369c-.258-.336-.62-.619-1.043-.619H4.75v5.5a2 2 0 0 0 2 2h10.5a2 2 0 0 0 2-2v-5.5h-4.42c-.425 0-.786.283-1.044.619A2.246 2.246 0 0 1 12 13.25a2.246 2.246 0 0 1-1.786-.881Z">
+                    </path>
+                </svg>
+                <h2>elegancebussiness@gmail.com</h2>
+            </div>
+            <!-- Location -->
+            <div class="svg__container">
+                <svg width="56" height="56" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m4.75 6.75 4.5-2v12.5l-4.5 2V6.75Z"></path>
+                    <path d="m14.75 6.75 4.5-2v12.5l-4.5 2V6.75Z"></path>
+                    <path d="m14.75 6.75-5.5-2v12.5l5.5 2V6.75Z"></path>
+                </svg>
+                <h2>ул."Цар Самуил" 2</h2>
+            </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider"></div>
+
+        <div class="columns">
+            <div class="footer__column">
+                <h2 class="column__title">За нас</h2>
+                <ul>
+                    <a href="">
+                        <li>История</li>
+                    </a>
+                    <a href="">
+                        <li>Награди</li>
+                    </a>
+                    <a href="">
+                        <li>Екип</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h2 class="column__title">Магазин</h2>
+                <ul>
+                    <a href="">
+                        <li>Мъже</li>
+                    </a>
+                    <a href="">
+                        <li>Жени</li>
+                    </a>
+                    <a href="">
+                        <li>Аксесоари</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer__column">
+                <h2 class="column__title">Ресурси</h2>
+                <ul>
+                    <a href="">
+                        <li>Блог</li>
+                    </a>
+                    <a href="">
+                        <li>Бюлетин</li>
+                    </a>
+                    <a href="">
+                        <li>Политика за поверителност</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer__form">
+                <h2 class="column__title">Абонирай се</h2>
+                <input type="text" placeholder="Email..."><br>
+                <span>Нашите актуализации и промоции във вашата пощенска кутия</span>
+            </div>
+        </div>
+    </footer>
+    <div class="legal">
+        <!-- Socials -->
+        <ul class="socials__wrapper">
+            <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <span><i class="fab fa-facebook-f"></i></span>
+            </li>
+            <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <span><i class="fab fa-twitter"></i></span>
+            </li>
+            <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span><i class="fab fa-instagram"></i></span>
+            </li>
+            <li class="icon github">
+                <span class="tooltip">Github</span>
+                <span><i class="fab fa-github"></i></span>
+            </li>
+        </ul>
+        <span class="legal__text">Copyright © 2023 <a href="">Elegance</a>. All Rights Reserved.</span>
+    </div>
+    <!-- Footer - КРАЙ-->
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- partial -->
+    <script src="../js/cart.js"></script>
+
+</body>
+
+</html>
